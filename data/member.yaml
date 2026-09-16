@@ -1,0 +1,56 @@
+# groups と members の並びが表示順になります。
+groups:
+  - id: faculty
+    name: 准教授
+    members:
+      - ja: 金子 直史
+        en: Naoshi Kaneko
+        url: https://icl-tdu.notion.site/Naoshi-Kaneko-3d7f9f4b121c4fd598dbc7fb6431e20c
+  - id: masters-2
+    name: 修士課程2年
+    members:
+      - ja: 髙橋 優太
+        en: Yuta Takahashi
+  - id: masters-1
+    name: 修士課程1年
+    members:
+      - ja: 岡本 龍季
+        en: Ryuki Okamoto
+      - ja: 金澤 麗王
+        en: Reo Kanazawa
+      - ja: 草野 藤舞
+        en: Toma Kusano
+      - ja: 小池 裕貴
+        en: Yuki Koike
+      - ja: 深澤 和樹
+        en: Kazuki Fukazawa
+      - ja: 八木 壮磨
+        en: Soma Yagi
+  - id: bachelors-4
+    name: 学部4年
+    members:
+      - ja: 奥山 京平
+        en: Kyohei Okuyama
+      - ja: 菊地 郁光
+        en: Ikumi Kikuchi
+      - ja: 木山 俊平
+        en: Shumpei Kiyama
+      - ja: 坂本 匠
+        en: Takumi Sakamoto
+      - ja: 菅谷 圭太
+        en: Keita Sugaya
+      - ja: 菅原 幸都
+        en: Yukito Sugawara
+      - ja: 中尾 拓実
+        en: Takumi Nakao
+      - ja: 細谷 太智
+        en: Taichi Hosoya
+      - ja: 森 友香
+        en: Tomoka Mori
+      - ja: 梁川 雅史
+        en: Masashi Yanagawa
+  - id: bachelors-3
+    name: 学部3年
+    members:
+      - ja: 依田 千和
+        en: Senna Yoda

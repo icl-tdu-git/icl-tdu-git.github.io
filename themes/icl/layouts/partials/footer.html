@@ -1,0 +1,8 @@
+{{ $lab := site.Data.site }}
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <a class="footer-brand" href="{{ site.Home.RelPermalink }}" aria-label="{{ $lab.name }} トップ">{{ $lab.short_name }}</a>
+    <div class="footer-info"><p>{{ $lab.university }} {{ $lab.department }}<br><strong>{{ $lab.name }}</strong></p><address>{{ $lab.postal_address }}<br>{{ $lab.room }}</address></div>
+  </div>
+  <div class="container copyright"><small>© {{ now.Year }} {{ $lab.english_name }}. All Rights Reserved.</small></div>
+</footer>

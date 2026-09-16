@@ -1,0 +1,5 @@
+{{ $current := .RelPermalink }}
+{{ range site.Menus.main.ByWeight }}
+  {{ $url := .URL | relURL }}
+  <a href="{{ $url }}"{{ if eq $current $url }} aria-current="page"{{ end }}>{{ .Name }}</a>
+{{ end }}

@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="container members-page">
+  <header class="page-title"><h1>{{ .Title }}</h1></header>
+  <div class="member-groups">
+    {{ range site.Data.member.groups }}
+    <section class="member-group{{ if gt (len .members) 6 }} member-group-wide{{ end }}" aria-labelledby="{{ .id }}-title">
+      <h2 id="{{ .id }}-title">{{ .name }}<span class="group-count">{{ len .members }}名</span></h2>
+      <ul class="member-list">
+        {{ range .members }}
+        <li class="member-card">
+          {{ if .url }}<a class="member-name" href="{{ .url }}">{{ .ja }} <span class="profile-arrow" aria-hidden="true">↗</span></a>{{ else }}<span class="member-name">{{ .ja }}</span>{{ end }}
+          <span class="member-english" lang="en">{{ .en }}</span>
+        </li>
+        {{ end }}
+      </ul>
+    </section>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

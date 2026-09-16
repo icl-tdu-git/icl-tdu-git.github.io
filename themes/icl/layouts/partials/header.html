@@ -1,0 +1,7 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="{{ site.Home.RelPermalink }}" aria-label="{{ site.Data.site.name }} トップ">{{ site.Data.site.short_name }}</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation" hidden>メニュー <span aria-hidden="true">☰</span></button>
+    <nav id="navigation" class="header-nav" aria-label="メインナビゲーション">{{ partial "menu.html" . }}</nav>
+  </div>
+</header>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ site.LanguageCode }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ .Description | default site.Data.site.description }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="icon" href="{{ site.Data.site.favicon | relURL }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&family=Righteous&display=swap">
+  <link rel="stylesheet" href="{{ "css/icl.css" | relURL }}">
+  {{ hugo.Generator }}
+</head>
+<body{{ if .IsHome }} class="home-page"{{ end }}>
+  <a class="skip-link" href="#main">本文へ移動</a>
+  {{ if not .IsHome }}{{ partial "header.html" . }}{{ end }}
+  <main id="main" tabindex="-1">{{ block "main" . }}{{ end }}</main>
+  {{ partial "footer.html" . }}
+  {{ if not .IsHome }}<script src="{{ "js/navigation.js" | relURL }}" defer></script>{{ end }}
+</body>
+</html>

@@ -1,0 +1,72 @@
+name: Build and deploy Hugo site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: "0.115.3"
+      HUGO_ENVIRONMENT: production
+      TZ: Asia/Tokyo
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v6
+
+      - name: Install Hugo
+        run: |
+          curl --fail --silent --show-error --location --retry 3 \
+            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-amd64.tar.gz" \
+            --output "${RUNNER_TEMP}/hugo.tar.gz"
+          mkdir -p "${RUNNER_TEMP}/hugo-bin"
+          tar -xzf "${RUNNER_TEMP}/hugo.tar.gz" -C "${RUNNER_TEMP}/hugo-bin" hugo
+          echo "${RUNNER_TEMP}/hugo-bin" >> "${GITHUB_PATH}"
+
+      # hugo.toml と themes/icl/ をリポジトリ直下に置く構成です。
+      - name: Build
+        env:
+          PAGES_BASE_URL: ${{ steps.pages.outputs.base_url }}
+        run: |
+          hugo version
+          # 本文の改行を保持するため、HTMLのminifyは行いません。
+          hugo --gc --baseURL "${PAGES_BASE_URL}/"
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: ./public
+
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

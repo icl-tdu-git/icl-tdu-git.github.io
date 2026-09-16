@@ -1,0 +1,31 @@
+{{ define "main" }}
+{{ $home := site.Data.home }}
+{{ $lab := site.Data.site }}
+<section class="main-visual" aria-labelledby="main-visual-title">
+  <img class="main-visual-photo" src="{{ $home.main_visual.image | relURL }}" alt="{{ $home.main_visual.image_alt }}" width="1477" height="1108" fetchpriority="high">
+  <div class="main-visual-title"><p>{{ $lab.university }}</p><h1 id="main-visual-title">{{ $lab.name }}</h1></div>
+  <div class="main-visual-center">
+    <p class="main-visual-logo" aria-hidden="true">{{ $lab.short_name }}</p>
+    <p class="main-visual-english" lang="en">{{ $lab.english_name }}</p>
+  </div>
+  <nav class="main-visual-nav" aria-label="メインナビゲーション">{{ partial "menu.html" . }}</nav>
+</section>
+<div class="container home-content">
+  <section class="about-section" aria-labelledby="about-title">
+    <div class="section-heading"><h2 id="about-title">研究室について</h2></div>
+    <h3>{{ $home.about.title }}</h3>
+    <p>{{ $home.about.text }}</p>
+  </section>
+  <section class="research-section" aria-labelledby="research-title">
+    <div class="section-heading"><h2 id="research-title">研究分野</h2></div>
+    <div class="research-list">
+      {{ range $home.fields }}
+      <article class="research-row">
+        <div class="research-copy"><h3>{{ .title }}</h3><p>{{ .text }}</p></div>
+        <div class="research-image"><img src="{{ .image | relURL }}" alt="{{ .image_alt }}" loading="lazy"></div>
+      </article>
+      {{ end }}
+    </div>
+  </section>
+</div>
+{{ end }}
