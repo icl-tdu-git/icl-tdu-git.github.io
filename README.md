@@ -4,7 +4,7 @@
 Hugoと専用テーマ `themes/icl/` を使用し、掲載内容をYAMLで管理します。
 
 - 公開先: https://icl-tdu-git.github.io/
-- 実装済みのページ: トップ、Member
+- 実装済みのページ: トップ、Member、お知らせ一覧
 
 ## ローカルでの表示
 
@@ -24,6 +24,7 @@ hugo server --baseURL http://localhost:1313/ --disableFastRender
 | 内容 | 編集するファイル |
 | --- | --- |
 | トップの写真・紹介文・研究分野 | `data/home.yaml` |
+| お知らせ | `data/news.yaml` |
 | メンバー・学年・表示順 | `data/member.yaml` |
 | 研究室名・所属・住所 | `data/site.yaml` |
 | ページタイトル | `content/_index.md`、`content/member.md` |
@@ -36,6 +37,25 @@ hugo server --baseURL http://localhost:1313/ --disableFastRender
 
 `data/home.yaml` の `about.text` は `|-` 形式です。
 字下げを揃えて記述すると、改行・空行が画面にも反映されます。長い行は画面幅に合わせて折り返されます。
+
+### お知らせ
+
+`data/news.yaml` に日付と本文を記載します。初回は空リストの `[]` を削除し、次のように追加してください。
+
+```yaml
+- date: "2026-09-16"
+  text: "○○学会で研究成果を発表しました。"
+  url: "https://example.com/"
+
+- date: "2026-09-01"
+  text: "○○の活動を行いました。"
+```
+
+紹介文と研究分野の間に、日付の新しい順で最新5件を表示します。
+「お知らせ一覧へ」から `/news/` を開くと、年ごとに全件を新しい順で表示します。
+トップと一覧は同じYAMLを使用するため、一覧用の追記は不要です。年の見出しも自動生成します。
+`date` は引用符で囲んだ `YYYY-MM-DD` 形式にします。`url` は任意で、指定すると本文がリンクになります。
+お知らせがない場合は `[]` と記載すると「現在、お知らせはありません。」と表示します。
 
 ### メンバー
 

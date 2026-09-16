@@ -46,6 +46,16 @@ img { display: block; max-width: 100%; }
 .about-section h3 { font-size: 18px; font-weight: 700; margin-bottom: 17px; }
 .about-section > p { color: var(--muted); margin-bottom: 0; white-space: pre-line; }
 .research-list { display: grid; gap: 20px; }
+.news-section { margin-bottom: 55px; }
+.news-page { padding-block: 50px 70px; }
+.news-year + .news-year { margin-top: 40px; }
+.news-more { margin: 18px 0 0; text-align: right; }
+.news-back { margin: 35px 0 0; }
+.news-list { list-style: none; padding: 0; margin: 0; border-top: 1px solid var(--line); }
+.news-item { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 12px 24px; padding: 16px 0; border-bottom: 1px solid var(--line); }
+.news-item time { color: var(--muted); font-size: 14px; }
+.news-text { overflow-wrap: anywhere; }
+.news-empty { color: var(--muted); margin-bottom: 0; }
 .research-row { display: grid; grid-template-columns: 55% 45%; min-height: 195px; background: var(--pale); border-radius: 5px; overflow: hidden; }
 .research-copy { align-self: center; padding: 28px 30px; }
 .research-copy h3 { margin-bottom: 12px; font-size: 21px; }
@@ -102,6 +112,9 @@ address { font-style: normal; }
   .main-visual-nav a { font-size: 16px; min-width: 90px; }
   .home-content { padding-block: 40px 50px; }
   .about-section { margin-bottom: 38px; }
+  .news-section { margin-bottom: 38px; }
+  .news-page { padding-block: 30px 45px; }
+  .news-item { grid-template-columns: 1fr; gap: 4px; }
   .about-section > p { font-size: 14px; }
   .section-heading { margin-bottom: 20px; }
   .section-heading h2 { font-size: 23px; }

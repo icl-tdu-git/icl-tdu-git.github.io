@@ -16,6 +16,15 @@
     <h3>{{ $home.about.title }}</h3>
     <p>{{ $home.about.text }}</p>
   </section>
+  <section class="news-section" aria-labelledby="news-title">
+    <div class="section-heading"><h2 id="news-title">お知らせ</h2></div>
+    {{ with site.Data.news }}
+    {{ partial "news-list.html" (first 5 (sort . "date" "desc")) }}
+    <p class="news-more"><a href="{{ "news/" | relURL }}">お知らせ一覧へ</a></p>
+    {{ else }}
+    <p class="news-empty">現在、お知らせはありません。</p>
+    {{ end }}
+  </section>
   <section class="research-section" aria-labelledby="research-title">
     <div class="section-heading"><h2 id="research-title">研究分野</h2></div>
     <div class="research-list">
