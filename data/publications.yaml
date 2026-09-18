@@ -1,0 +1,752 @@
+# 新しい論文を先頭に追加します。表示時に出版年・種別で分類します。
+# category: journal / international / domestic。date: "YYYY-MM"（必須）。
+
+- author: [小池裕貴, 金子直史]
+  title: 局所的な低照度領域における道路損傷検出モデルの精度向上
+  venue: 動的画像処理実利用化ワークショップ (DIA2026), IS1-5
+  date: "2026-03"
+  category: domestic
+
+- author: [金澤麗王, 金子直史]
+  title: 周波数情報を統合した線形時間系列モデルによる画像超解像
+  venue: 信学技報, vol. 125, no. 424, PRMU2025-41, pp. 1-4
+  date: "2026-03"
+  category: domestic
+
+- author: [八木壮磨, 金子直史]
+  title: 複数参照画像による複数アニメ線画の自動彩色手法の検討
+  venue: 動的画像処理実利用化ワークショップ (DIA2026), IS1-20
+  date: "2026-03"
+  category: domestic
+
+- author: [岡本龍季, 高橋優太, 金子直史]
+  title: 足音に着目した人物解析データセットの構築
+  venue: 動的画像処理実利用化ワークショップ (DIA2026), IS3-24
+  date: "2026-03"
+  category: domestic
+
+- author: [オウヨウイキツ, 金子直史]
+  title: 作業現場における人間工学的リスクの高い行動の検出
+  venue: 動的画像処理実利用化ワークショップ (DIA2026), IS2-11
+  date: "2026-03"
+  category: domestic
+
+- author: [草野藤舞, 金子直史]
+  title: 漫符と顔画像の統合による漫画感情認識
+  venue: 信学技報, vol. 125, no. 424, PRMU2025-46, pp. 28-31
+  date: "2026-03"
+  category: domestic
+
+- author: [髙橋優太, 金子直史]
+  title: 時間的損失重み付けと対照学習に基づく足音ベース人物3Dメッシュ・位置推定
+  venue: ビジョン技術の実利用ワークショップ (ViEW2025), OS4-H3
+  date: "2025-12"
+  category: domestic
+
+- author: [深澤和樹, 金子直史]
+  title: 幾何学的情報を用いた自然画像中の消失点検出性能の向上
+  venue: ビジョン技術の実利用ワークショップ (ViEW2025), IS2-24
+  date: "2025-12"
+  category: domestic
+
+- author: [K. Nagata, N. Kaneko]
+  title: 'DACoN: DINO for Anime Paint Bucket Colorization with Any Number of Reference Images'
+  venue: 'IEEE/CVF International Conference on Computer Vision (ICCV 2025), [**Acceptance rate: 24% (2,699/11,239 submissions)**]'
+  date: "2025-10"
+  category: international
+
+- author: [髙橋優太, 金子直史]
+  title: 足音の到達時間差を活用した人物の時系列3D メッシュ・位置推定
+  venue: AIPサマーセミナー
+  date: "2025-08"
+  category: domestic
+
+- author: [髙橋優太, 金子直史]
+  title: 足音に基づく人物の時系列3Dメッシュおよび位置推定
+  venue: 第28回 画像の認識・理解シンポジウム (MIRU2025), IS3-171
+  date: "2025-08"
+  category: domestic
+
+- author: [長田和真, 金子直史]
+  title: 多様な視点・姿勢に対応可能な参照画像数に制限のないアニメキャラクタの自動彩色
+  venue: 第28回 画像の認識・理解シンポジウム (MIRU2025), OS3A-06, [**MIRU2025 学生奨励賞**]
+  date: "2025-08"
+  category: domestic
+
+- author: [高橋優太, 金子直史]
+  title: 足音を用いた人物の時系列3D姿勢体型推定
+  venue: 動的画像処理実利用化ワークショップ (DIA2025), OS1-2 (IS1-2)
+  date: "2025-03"
+  category: domestic
+
+- author: [大谷晟剛, 金子直史]
+  title: 体の各部位に着目したマイクロジェスチャのマルチラベル時系列セグメンテーション
+  venue: 動的画像処理実利用化ワークショップ (DIA2025), IS1-30
+  date: "2025-03"
+  category: domestic
+
+- author: [柴山美樹, 金子直史]
+  title: ラリー履歴と視覚情報に基づくバドミントンのショット予測
+  venue: 動的画像処理実利用化ワークショップ (DIA2025), IS3-15
+  date: "2025-03"
+  category: domestic
+
+- author: [Y. Yoshida, N. Kaneko]
+  title: Self-Supervised Learning to Rank for Multimodal Group Dance Skill Estimation
+  venue: International Workshop on Frontiers of Computer Vision (IW-FCV2025), Work-in-progress paper
+  date: "2025-02"
+  category: international
+
+- author: [K. Saito, N. Kaneko]
+  title: Two-Stream Network with Keyframe Sampling for Tennis Shot Classification
+  venue: International Workshop on Frontiers of Computer Vision (IW-FCV2025)
+  date: "2025-02"
+  category: international
+
+- author: [千葉竜太, 金子直史]
+  title: スタイルとコンテンツのもつれ解きによる手書き文字の美化可能性の検討
+  venue: 信学技報, vol. 124, no. 336, PRMU2024-37, pp. 24-28
+  date: "2025-01"
+  category: domestic
+
+- author: [濱田大聖, 金子直史]
+  title: 野球スイング軌道推定のための未検出バットの位置補間
+  venue: 信学技報, vol. 124, no. 336, PRMU2024-39, pp. 33-37
+  date: "2025-01"
+  category: domestic
+
+- author: [吉⽥勇惟, ⾦⼦直史]
+  title: グループダンス動画のスキルレベル評価に向けた動作と⾳楽の親和性推定
+  venue: ビジョン技術の実利用ワークショップ (ViEW2024), IS4-20
+  date: "2024-12"
+  category: domestic
+
+- author: [⻫藤海都, ⾦⼦直史]
+  title: キーフレーム抽出に基づくテニス試合映像からのショット分類
+  venue: ビジョン技術の実利用ワークショップ (ViEW2024), IS4-17
+  date: "2024-12"
+  category: domestic
+
+- author: [長田和真, 金子直史]
+  title: 姿勢・視点に依存しない単一参照画に基づくアニメキャラクタの自動彩色手法の検討
+  venue: IAIPサマーセミナー
+  date: "2024-08"
+  category: domestic
+
+- author: [斉藤海都, 金子直史, 中島克人]
+  title: テニス試合映像からのショット分類の精度向上手法
+  venue: 動的画像処理実利用化ワークショップ(DIA), IS3-18
+  date: "2024-03"
+  category: domestic
+
+- author: [長田和真, 金子直史, 中島克人]
+  title: 人物イラストの領域分割のためのデータセット生成
+  venue: 動的画像処理実利用化ワークショップ(DIA), IS3-22
+  date: "2024-03"
+  category: domestic
+
+- author: [H.Tsutsumi, N.Kaneko, K.Nakajima]
+  title: Automatic Camerawork System for Lecture Archives
+  venue: The International Workshop on Advanced Image Technology (IWAIT 2024)
+  date: "2024-01"
+  category: international
+
+- author: [T.Hamada, N.Kaneko, K.Nakajima]
+  title: Baseball Swing Analysis From a Monocular Video
+  venue: The International Workshop on Advanced Image Technology (IWAIT 2024)
+  date: "2024-01"
+  category: international
+
+- author: [J.Komamaki, N.Kaneko, K.Nakajima]
+  title: Efficient Data Reduction based on Predicted Regions of Interest for Game Videos
+  venue: The International Workshop on Advanced Image Technology (IWAIT 2024)
+  date: "2024-01"
+  category: international
+
+- author: [吉田勇惟, 金子直史, 中島克人]
+  title: ヲタ芸チーム演技の練習支援システム
+  venue: 映像情報メディア学会2023年冬季大会, 11C-6
+  date: "2023-12"
+  category: domestic
+
+- author: [千葉竜太, 金子直史, 中島克人]
+  title: 少数の例示入力による手書き風文字生成
+  venue: 第22回情報科学技術フォーラム, F-044
+  date: "2023-09"
+  category: domestic
+
+- author: [濱田大聖, 金子直史, 中島克人]
+  title: 野球のバッティング上達支援のためのスイング解析
+  venue: 第26回 画像の認識・理解シンポジウム (MIRU2023), IS3-107
+  date: "2023-07"
+  category: domestic
+
+- author: [斉藤海都, 中島克人]
+  title: 筋力トレーニングにおける往復運動の崩れ認識
+  venue: 情報処理学会第85回全国大会, 2X-06
+  date: "2023-03"
+  category: domestic
+
+- author: [堤陽菜, 中島克人]
+  title: 物体検出器を用いた講義映像のための自動カメラワーク
+  venue: 情報処理学会第85回全国大会, 1S-05
+  date: "2023-03"
+  category: domestic
+
+- author: [駒牧潤也, 中島克人]
+  title: 高効率ゲーム動画配信のためのユーザ関心領域を考慮した転送データ削減手法
+  venue: 情報処理学会第85回全国大会, 1Q-06
+  date: "2023-03"
+  category: domestic
+
+- author: [高橋遼, 中島克人]
+  title: 単眼車載カメラによる昼夜を問わない対向車検出
+  venue: 情報処理学会第85回全国大会, 6R-02
+  date: "2023-03"
+  category: domestic
+
+- author: [濱田大聖, 中島克人]
+  title:  野球のバッティング上達支援のためのスイング解析
+  venue: 情報処理学会第85回全国大会, 7R-02
+  date: "2023-03"
+  category: domestic
+
+- author: [進藤光太, 中島克人]
+  title: イラスト上達のためのキャラクターのボディライン抽出
+  venue: 情報処理学会第85回全国大会,  2S-04
+  date: "2023-03"
+  category: domestic
+
+- author: [細野真衣, 中島克人]
+  title: 飲食店の天井カメラによる空き皿検出手法の評価
+  venue: 情報処理学会第85回全国大会, 4Q-07
+  date: "2023-03"
+  category: domestic
+
+- author: [細野真衣, 中島克人]
+  title: 飲食店の天井カメラによる空き皿検出
+  venue: 情報処理学会第84回全国大会, 5U-07
+  date: "2022-03"
+  category: domestic
+
+- author: [堤陽菜, 中島克人]
+  title: 迷子対策のための親子連れ検出
+  venue: 情報処理学会第84回全国大会, 5U-06
+  date: "2022-03"
+  category: domestic
+
+- author: [進藤光太, 中島克人]
+  title: 投稿イラストのトレース回避のためのキャラクターの姿勢類似度判定
+  venue: 情報処理学会第84回全国大会, 6P-08
+  date: "2022-03"
+  category: domestic
+
+- author: [駒牧潤也, 中島克人]
+  title: キャラクタの精細度を維持しデータ通信量を抑えたゲーム配信手法
+  venue: 情報処理学会第84回全国大会, 6P-09
+  date: "2022-03"
+  category: domestic
+
+- author: [藤波広凪, 中島克人]
+  title: アニメキャラクター表情識別の精度向上とシーン分類への応用
+  venue: 情報処理学会第84回全国大会, 7U-08
+  date: "2022-03"
+  category: domestic
+
+- author: [T.Shimekake, K.Nakajima]
+  title: Empty Mug Detection in Pubs and Restaurants Using a Ceiling Camera
+  venue: The International Workshop on Advanced Image Technology (IWAIT 2022)
+  date: "2022-01"
+  category: international
+
+- author: [K.Goto, K.Nakajima]
+  title: Car Number Recognition for Formula One Driver Identification
+  venue: The International Workshop on Advanced Image Technology (IWAIT 2022)
+  date: "2022-01"
+  category: international
+
+- author: [桑原大輔, 中島克人]
+  title: 判別属性をパラメータで制御可能な物体判別器
+  venue: 第20回情報科学技術フォーラム, H-018
+  date: "2021-08"
+  category: domestic
+
+- author: [七五三掛豊和, 中島克人]
+  title: 天井のカメラを用いた空きジョッキ検出の精度向上
+  venue: 情報処理学会第83回全国大会, 2N-06
+  date: "2021-03"
+  category: domestic
+
+- author: [藤波広凪, 中島克人]
+  title: アニメのシーン解析のためのキャラクター表情識別
+  venue: 情報処理学会第83回全国大会, 6M-07
+  date: "2021-03"
+  category: domestic
+
+- author: [吉井康貴, 中島克人]
+  title: 屋外風景画像からの人影の自動除去
+  venue: 電子情報通信学会2021年総合大会, D-11-11
+  date: "2021-03"
+  category: domestic
+
+- author: [後藤知也, 中島克人]
+  title: フォーミュラ1におけるドライバー特定のための車体ナンバー認識
+  venue: 情報処理学会第83回全国大会, 2M-05
+  date: "2021-03"
+  category: domestic
+
+- author: [陸儀, 中島克人]
+  title: 線画のフレーム補間を用いたアニメ自動着色
+  venue: 情報処理学会CVIM研究会報告
+  date: "2020-11"
+  category: domestic
+
+- author: [七五三掛豊和, 中島克人]
+  title: 飲食店における天井のカメラを用いた空きジョッキ検出
+  venue: 情報処理学会第82回全国大会, 6Q-01
+  date: "2020-03"
+  category: domestic
+
+- author: [陸儀, 中島克人]
+  title: 着色済み参照フレームを用いるアニメ線画の自動着色手法の提案
+  venue: 情報処理学会第82回全国大会, 5P-07
+  date: "2020-03"
+  category: domestic
+
+- author: [月岡陽人, 中島克人]
+  title: 単眼カメラによる手指の平面タッチ判定とその応用
+  venue: 情報処理学会第82回全国大会, 6ZB-02
+  date: "2020-03"
+  category: domestic
+
+- author: [T.Nakamura, K.Nakajima]
+  title: 'Who is Your Favorite Player?: Specific Player Tracking in Soccer Broadcast'
+  venue: International Conference on Computer Vision Theory and Applications (VISAPP 2020), Poster presentation (Short Paper)
+  date: "2020-02"
+  category: international
+
+- author: [中村達也, 中島克人]
+  title: サッカー放送映像からの特定選手追跡の提案とその評価
+  venue: 第18回情報科学技術フォーラム, H-027
+  date: "2019-09"
+  category: domestic
+
+- author: [新村祐加, 堰澤映, 中島克人]
+  title: 弦楽器練習支援のための音符からの運指推定
+  venue: 第18回情報科学技術フォーラム, E-011
+  date: "2019-09"
+  category: domestic
+
+- author: [木村泰大, 堰澤映, 中島克人]
+  title: 深層ニューラルネットワークを用いたクラゲの分類
+  venue: 2019年映像情報メディア学会年次大会, 13B-4
+  date: "2019-08"
+  category: domestic
+
+- author: [堰澤映, 中島克人]
+  title: Faster R-CNNを用いた道路標識認識におけるコンテキスト情報の有効性の評価
+  venue: 第22回 画像の認識・理解シンポジウム (MIRU2019), PS3-6
+  date: "2019-07"
+  category: domestic
+
+- author: [月岡陽人, 中島克人]
+  title: スマートフォンカメラで撮影された写真に対するランダムノイズ除去
+  venue: 情報処理学会第81回全国大会, 1V-01
+  date: "2019-03"
+  category: domestic
+
+- author: [有馬大智, 中島克人]
+  title: 漫画自動着色のための領域分割
+  venue: 電子情報通信学会2019年総合大会, D-12-50
+  date: "2019-03"
+  category: domestic
+
+- author: [中村達也, 中島克人]
+  title: サッカー放送映像からの特定選手追跡のための背番号認識
+  venue: 電子情報通信学会2019年総合大会, D-12-49
+  date: "2019-03"
+  category: domestic
+
+- author: [雑賀智, 中島克人]
+  title: 行動認識モデルを用いた監視カメラ映像での万引き検出
+  venue: 情報処理学会第81回全国大会, 2R-04
+  date: "2019-03"
+  category: domestic
+
+- author: [遠藤怜, 中島克人]
+  title: ゲームカード認識のための学習データの収集
+  venue: 電子情報通信学会2019年総合大会, D-12-48
+  date: "2019-03"
+  category: domestic
+
+- author: [A.Sekizawa, K.Nakajima]
+  title: Context-aware Training Image Synthesis for Traffic Sign Recognition
+  venue: International Conference on Computer Vision Theory and Applications (VISAPP 2019), Poster presentation (Short Paper)
+  date: "2019-02"
+  category: international
+
+- author: [堰澤映, 中島克人]
+  title: 人工的に生成した道路シーンを用いた道路標識認識器の学習
+  venue: 電子情報通信学会 パターン認識・メディア理解研究会(PRMU), Vol.118, No.362
+  date: "2018-12"
+  category: domestic
+
+- author: [新村祐加, 中島克人]
+  title: 弦楽器の運指認識とその楽譜との対応付け
+  venue: 2018年映像情報メディア学会年次大会, 13B-1
+  date: "2018-08"
+  category: domestic
+
+- author: [中村達也, 中島克人]
+  title: サッカー放送映像からの特定選手追跡のための動的尤度を用いた粒子フィルタの提案
+  venue: 2018年映像情報メディア学会年次大会, 12B-4
+  date: "2018-08"
+  category: domestic
+
+- author: [H.Murakami, K.Nakajima]
+  title: Virtual Musical Instrument using a Depth Sensor
+  venue: International Conference on Computer Vision Theory and Applications (VISAPP 2018), Demo presentation
+  date: "2018-01"
+  category: international
+
+- author: [堰澤映, 中島克人]
+  title: 道路標識認識のための学習データ増強手法の検討
+  venue: 第16回情報科学技術フォーラム, H-037
+  date: "2017-09"
+  category: domestic
+
+- author: [遠藤怜, 中島克人]
+  title: 二段階式上半身検出器における前段検出器の再現率向上
+  venue: 第16回情報科学技術フォーラム, H-042
+  date: "2017-09"
+  category: domestic
+
+- author: [有馬大智, 中島克人]
+  title: プロジェクタとカメラによる仮想タッチスクリーンにおけるボタンタッチ検出精度向上
+  venue: 第16回情報科学技術フォーラム, H-035
+  date: "2017-09"
+  category: domestic
+
+- author: [K.Nakajima, T.Igarashi]
+  title: Full Screen Touch Detection for the Virtual Touch Screen
+  venue: Advanced Concepts for Intelligent Vision Systems (ACIVS) 2017, 164
+  date: "2017-09"
+  category: international
+
+- author: [堰澤映, 中島克人]
+  title: 道路標識認識のための学習データ増強手法の検討
+  venue: 広島大セミナー
+  date: "2017-08"
+  category: domestic
+
+- author: [村上裕美, 中島克人]
+  title: 深度センサを用いたバーチャル楽器演奏システム
+  venue: 情報処理学会第79回全国大会, 3ZF-06
+  date: "2017-03"
+  category: domestic
+
+- author: [K.Nakajima, A.Mama, Y.Morimoto]
+  title: "Energy-Based Tree Illustration System: ETIS"
+  venue: IEICETrans. Inf.&Syst., vol.E99-D, no.9
+  date: "2016-09"
+  category: journal
+
+- author: [二見大希, 中島克人]
+  title: プロジェクタとカメラによる仮想タッチスクリーンにおけるボタンタッチ検出
+  venue: 電子情報通信学会2016年総合大会, D-12-63
+  date: "2016-03"
+  category: domestic
+
+- author: [仲田匡宏, 中島克人]
+  title: 天井カメラを用いたマルチユーザAR環境の構築
+  venue: 電子情報通信学会2016年総合大会(ISS学生ポスターセッション), ISS-P-116
+  date: "2016-03"
+  category: domestic
+
+- author: [浅利広織, 中島克人]
+  title: Deep-CNN による上半身識別器の構成別評価
+  venue: 電子情報通信学会2016年総合大会, D-12-84
+  date: "2016-03"
+  category: domestic
+
+- author: [五十嵐貴文, 中島克人]
+  title: 仮想タッチスクリーンにおける任意位置タッチ検出のための前景領域抽出手法の提案
+  venue: 電子情報通信学会2016年総合大会, D-12-64
+  date: "2016-03"
+  category: domestic
+
+- author: [A.Mama, Y.Morimoto, K.Nakajima]
+  title: Interactive Tree Illustration Generation System
+  venue: ACM SIGGRAPH 2015, Posters, Article
+  date: "2015-08"
+  category: international
+
+- author: [高久大輔, 中島克人]
+  title: Kinectを用いた筋力トレーニング支援システム
+  venue: 情報処理学会第77回全国大会, 1T-02
+  date: "2015-03"
+  category: domestic
+
+- author: [A.Nozaki, K.Nakajima]
+  title: The “Everywhere Switch” Using a Projector and Camera
+  venue: VISAPP 2015, No.204
+  date: "2015-03"
+  category: international
+
+- author: [江間雄二, 中島克人]
+  title: 上半身識別器と動きの情報を用いた映像からの受講者挙動解析
+  venue: 情報処理学会第77回全国大会, 1D-01
+  date: "2015-03"
+  category: domestic
+
+- author: [浅利広織, 中島克人]
+  title: 上半身検出の手法とその評価
+  venue: 情報処理学会第77回全国大会, 1D-03
+  date: "2015-03"
+  category: domestic
+
+- author: [根本祐也, 中島克人]
+  title: 単眼カメラによるハンドジェスチャー認識のための高速手指検出
+  venue: 情報処理学会第76回全国大会, 2D-3
+  date: "2014-03"
+  category: domestic
+
+- author: [眞間梓, 中島克人]
+  title: 手書き線をガイドラインにするイラスト向け樹木生成システム
+  venue: 情報処理学会第76回全国大会, 6F-4
+  date: "2014-03"
+  category: domestic
+
+- author: [本間昂, 岩井将行, 渡邊朗子, 中島克人]
+  title: 机上オブジェクトの配置操作によるマルチプロジェクション制御システム
+  venue: 情報処理学会第76回全国大会, 5E-1
+  date: "2014-03"
+  category: domestic
+
+- author: [野崎陽, 中島克人]
+  title: 照度変動に適応可能な“どこでもスイッチ”のための指先タッチ判定
+  venue: 情報処理学会第76回全国大会, 5Q-8
+  date: "2014-03"
+  category: domestic
+
+- author: [T.Homma, K.Nakajima]
+  title: Virtual Touch Screen “VIRTOS” - Implementing Virtual Touch Buttons and Virtual Sliders using a Projector and Camera
+  venue: VISAPP 2014, pp.34-43
+  date: "2014-01"
+  category: international
+
+- author: [眞間梓, 中島克人]
+  title: エネルギーモデルに基づくイラスト向け樹木描画システム
+  venue: 第12回情報科学技術フォーラム, I-040
+  date: "2013-09"
+  category: domestic
+
+- author: [根本祐也, 中島克人]
+  title: 複雑背景下における単眼カメラによるハンドジェスチャの認識
+  venue: 第12回情報科学技術フォーラム, H-010
+  date: "2013-09"
+  category: domestic
+
+- author: [野崎陽, 中島克人]
+  title: プロジェクタとカメラを用いた“どこでもスイッチ”
+  venue: 第12回情報科学技術フォーラム, H-022
+  date: "2013-09"
+  category: domestic
+
+- author: [本間昂, 中島克人]
+  title: プロジェクタとカメラを用いた仮想タッチスクリーンの機能および精度向上
+  venue: 第12回情報科学技術フォーラム, H-023
+  date: "2013-09"
+  category: domestic
+
+- author: [篠崎眞太郎, 中島克人]
+  title: 実時間物体追跡に適した動的背景推定法と背景差分法
+  venue: 日本知能情報ファジィ学会「知能と情報」
+  date: "2012-04"
+  category: journal
+
+- author: [師井聡子, 小栗奈緒美, 増田拓, 加島隆博, 中島克人]
+  title: 複合現実感とシルエットパズルの融合によるエデュテイメント「Bird-callWindow：鳥を呼ぶ窓」
+  venue: 日本バーチャルリアリティ学会論文誌, Vol.17, No.1
+  date: "2012-03"
+  category: journal
+
+- author: [T.Kashima, K.Nakajima]
+  title: Touchscreen by a Projector and a Camera
+  venue: 7th Int'l Conf. on Computer Vision, Imaging and Computer Graphics Theoryand Applications (VISAPP 2012), Demo session
+  date: "2012-02"
+  category: international
+
+- author: [藤井龍也, 中島克人, 野口祥宏, 西田健次]
+  title: HOGとSVMによる上半身検出器の特徴の抽出位置に関する考察
+  venue: 第10回情報科学技術フォーラム, H-001
+  date: "2011-09"
+  category: domestic
+
+- author: [加島隆博, 小栗奈緒美, 増田拓, 師井聡子, 中島克人]
+  title: 対話型エデュテイメント展示「鳥を呼ぶ窓」－システム構成－
+  venue: 第10回情報科学技術フォーラム, I-020
+  date: "2011-09"
+  category: domestic
+
+- author: [増田拓, 小栗奈緒美, 加島隆博, 師井聡子, 中島克人]
+  title: 対話型エデュテイメント展示「鳥を呼ぶ窓」－コンセプトとアニメーション表現－
+  venue: 第10回情報科学技術フォーラム, I-019
+  date: "2011-09"
+  category: domestic
+
+- author: [S.Moroi, N.Oguri, R.Miyama, T.Masuda, T.Kashima, K.Nakajima]
+  title: Bird-call Window
+  venue: Laval Virtual Revolution 2011
+  date: "2011-04"
+  category: international
+
+- author: [S.Moroi, N.Oguri, R.Miyama, T.Masuda, T.Kashima, K.Nakajima]
+  title: Bird-call Window - Its Artistic Concept & System Configuration and Technology -
+  venue: Virtual Reality International Conference (VRIC) 2011
+  date: "2011-04"
+  category: international
+
+- author: [Y.Aoki, K.Nakajima]
+  title: Fast Road Sign Recognition by Integral Image and DP Matching
+  venue: International Conference on Space, Aeronautical and Navigational Electronics (ICSANE) 2010
+  date: "2010-10"
+  category: international
+
+- author: [S.Shinozaki, K.Nakajima]
+  title: An Adaptive Dynamic Background Estimation and Foreground Segmentation for Object Tracking
+  venue: International Conference on Space, Aeronautical and Navigational Electronics (ICSANE) 2010
+  date: "2010-10"
+  category: international
+
+- author: [坪田尚洋, 中島克人]
+  title: 手軽に利用できるハンドジェスチャユーザインタフェースの考察と提案
+  venue: 第9回情報科学技術フォーラム, H-039
+  date: "2010-09"
+  category: domestic
+
+- author: [青木崇弘, 中島克人]
+  title: 顔検出器のスイープ範囲限定による高速化とその評価
+  venue: 第9回情報科学技術フォーラム, H-038
+  date: "2010-09"
+  category: domestic
+
+- author: [加島隆博, 中島克人]
+  title: プロジェクタとカメラによるタッチスクリーンのタッチ精度向上
+  venue: 映像情報メディア学会映像表現＆コンピュータグラフィックス研究会／画像電子学会第251回研究会
+  date: "2010-07"
+  category: domestic
+
+- author: [小泉卓, 北島周平, 篠崎眞太郎, 中島克人, 鈴木剛]
+  title: 人の踵認識に基づく移動ロボットの歩容取得方法の提案
+  venue: 日本機械学会ROBOMEC 2010, 2A2-B07
+  date: "2010-06"
+  category: domestic
+
+- author: [北島周平, 小泉卓, 篠崎眞太郎, 中島克人, 鈴木剛]
+  title: 歩幅取得のための実時間踵追跡
+  venue: 日本機械学会ROBOMEC 2010, 2A2-F13
+  date: "2010-06"
+  category: domestic
+
+- author: [内藤太輔, 篠崎眞太郎, 中島克人]
+  title: 遠方からの高速
+  venue: 高精度頭部追跡, 電子情報通信学会2010年総合大会, D-12-10
+  date: "2010-03"
+  category: domestic
+
+- author: [小栗奈緒美, 加島隆博, 北島周平, 師井聡子, 中島克人]
+  title: プロジェクタとカメラを用いた 大画面シルエットパズルの実現
+  venue: 画像電子学会第249回研究会(映像表現フォーラム), (16)
+  date: "2010-03"
+  category: domestic
+
+- author: [小栗奈緒美, 加島隆博, 師井聡子, 中島克人]
+  title: プロジェクタとカメラを用いた Ｔ字パズルのスクリーン前面からの正解判定手法
+  venue: 情報処理学会第72回全国大会, 5X-3
+  date: "2010-03"
+  category: domestic
+
+- author: [加島隆博, 中島克人]
+  title: プロジェクタとカメラを用いたスクリーンタッチスイッチの実現
+  venue: 電子情報通信学会2010年総合大会, D-12-14
+  date: "2010-03"
+  category: domestic
+
+- author: [北島周平, 小泉卓, 篠崎眞太郎, 中島克人, 鈴木剛]
+  title: 粒子フィルタを用いた歩幅取得のための実時間踵追跡
+  venue: 電子情報通信学会2010年総合大会, D-12-90
+  date: "2010-03"
+  category: domestic
+
+- author: [篠崎眞太郎, 北島周平, 中島克人]
+  title: 探索点の動的背景推定を用いた粒子フィルタによる実時間移動物体追跡
+  venue: 電子情報通信学会2010年総合大会, D-12-89
+  date: "2010-03"
+  category: domestic
+
+- author: [青木裕太, 中島克人]
+  title: 積分画像を駆使した円形道路標識の高速認識
+  venue: 電子情報通信学会2010年総合大会, D-12-73
+  date: "2010-03"
+  category: domestic
+
+- author: [青木裕太, 中島克人]
+  title: メッシュ・テンプレートを用いた円形道路標識の高速検出
+  venue: 情報処理学会研究報告, No.2009-CVIM-167(31)
+  date: "2009-06"
+  category: domestic
+
+- author: [北島周平, 篠崎眞太郎, 中島克人]
+  title: ２色ボールの実時間追跡
+  venue: "画像電子学会2009年度:年次大会"
+  date: "2009-06"
+  category: domestic
+
+- author: [篠崎眞太郎, 北島周平, 中島克人]
+  title: 探索点近傍の正規化相互相関を背景除去に用いた 粒子フィルタの高精度化
+  venue: 画像電子学会, VC/GCAD合同シンポジウム2009
+  date: "2009-06"
+  category: domestic
+
+- author: [青木裕太, 安西俊孝, 篠崎眞太郎, 中島克人]
+  title: メッシュ・テンプレートを 用いた色と形の同時判定による道路標識の高速検出
+  venue: 第7回情報科学技術 フォーラム, Vol.FIT2008, H-037, pp.141-142
+  date: "2008-09"
+  category: domestic
+
+- author: [川村正祥, 中島克人]
+  title: OR木探索向けの粒度自動調整型動的負荷分散方式の 試作と評価
+  venue: 情報処理学会第70回全国大会, No.1, pp.1.81-1.82
+  date: "2008-03"
+  category: domestic
+
+- author: [澤田めぐみ, 中島克人]
+  title: 時間割作成問題に対する可変近傍タブーサーチの提案
+  venue: 第6回情報科学技術フォーラム, Vol.FIT2007, A-006, pp.13-14
+  date: "2007-08"
+  category: domestic
+
+- author: [江藤雅一, 三原洋平, 中島克人]
+  title: 粒度自動調整機能を持つマルチコア対応ジョブスケジューラ
+  venue: 第69回情報処理学会全国大会
+  date: "2007-03"
+  category: domestic
+
+- author: [三原洋平, 中島克人]
+  title: メディアコンテンツ作成支援のためのバリエーション生成／表示方法の評価
+  venue: FIT2006
+  date: "2006-09"
+  category: domestic
+
+- author: [竹内宏誠, 中島克人]
+  title: 交差方法を継承する遺伝的アルゴリズムとその応用
+  venue: 第20回人工知能学会全国大会
+  date: "2006-06"
+  category: domestic
+
+- author: [三原洋平, 川村正祥, 中島克人]
+  title: メディアコンテンツ作成支援のためのバリエーション生成／表示方法の提案
+  venue: 第20回人工知能学会全国大会
+  date: "2006-06"
+  category: domestic

@@ -4,7 +4,7 @@
 Hugoと専用テーマ `themes/icl/` を使用し、掲載内容をYAMLで管理します。
 
 - 公開先: https://icl-tdu-git.github.io/
-- 実装済みのページ: トップ、Member、お知らせ一覧
+- 実装済みのページ: トップ、Member、お知らせ一覧、Publications、Theses
 
 ## ローカルでの表示
 
@@ -25,6 +25,8 @@ hugo server --baseURL http://localhost:1313/ --disableFastRender
 | --- | --- |
 | トップの写真・紹介文・研究分野 | `data/home.yaml` |
 | お知らせ | `data/news.yaml` |
+| 学術論文・国際会議・国内学会 | `data/publications.yaml` |
+| 博士論文・修士論文・卒業論文 | `data/theses.yaml` |
 | メンバー・学年・表示順 | `data/member.yaml` |
 | 研究室名・所属・住所 | `data/site.yaml` |
 | ページタイトル | `content/_index.md`、`content/member.md` |
@@ -71,6 +73,44 @@ hugo server --baseURL http://localhost:1313/ --disableFastRender
 グループとメンバーはYAMLのリスト順に表示し、人数は自動集計します。
 グループの `id` は、重複しない半角英数字とハイフンで指定してください。
 
+### Publications・Theses
+
+`/publications/` は研究業績、`/theses/` は学位論文・卒業論文の一覧です。
+Publicationsは「出版年 → 出版種別」の順で表示します。
+`data/publications.yaml` の先頭に論文を追加します。各項目の `category` に出版種別を指定します。
+出版年（1月〜12月）は必須の `date` から自動取得し、新しい順に並べます。
+`date` は引用符で囲んだ `YYYY-MM` 形式で記載してください（月は2桁）。
+
+```yaml
+- author: [著者名1, 著者名2]
+  title: 論文タイトル
+  venue: 掲載誌名・会議名、巻号、ページなど
+  date: "2026-09"
+  category: international
+  url: "https://example.com/"
+```
+
+カテゴリは `journal`（学術論文）、`international`（国際会議）、`domestic`（国内学会・研究会）の順で表示します。
+各カテゴリ内は年月の新しい順に表示します。同じ年月の項目は記載順です。
+未定義のカテゴリや不正な年月形式はビルド時にエラーになります。全件削除する場合は `[]` と記載します。
+その年に項目のないカテゴリは表示しません。
+`author` は著者名のリスト、または卒論・修論のように単一の文字列を指定できます。
+Thesesでは通常 `author` と `title` のみで構いません。
+`venue`・`url` は任意です。`url` を指定するとタイトルがリンクになります。
+掲載先の補足には `**受賞情報**` のようなMarkdownの強調が使えます。
+Thesesは「年度 → 種別」の順で表示します。データは従来どおり `data/theses.yaml` の該当カテゴリの `fiscal_years` 内に追記します。
+`fiscal_year` は年度（4月〜翌年3月）で、新しい順に表示します。`date` は任意です。
+
+```yaml
+      - fiscal_year: 2026
+        items:
+          - author: 著者名
+            title: 論文タイトル
+```
+
+Thesesのカテゴリ内の `fiscal_years: []` または年度内の `items: []` は表示しません。
+博士論文を追加する際は、`doctoral` の `fiscal_years: []` を年度と項目のリストに置き換えてください。
+
 ## デザインの変更
 
 専用テーマの編集箇所は次のとおりです。
@@ -79,6 +119,10 @@ hugo server --baseURL http://localhost:1313/ --disableFastRender
 | --- | --- |
 | トップの構成 | `layouts/index.html` |
 | Memberの構成 | `layouts/_default/member.html` |
+| Publicationsの構成 | `layouts/_default/publications.html` |
+| Thesesの構成 | `layouts/_default/achievements.html` |
+| Publicationsの参考文献形式 | `layouts/partials/publication-list.html` |
+| Thesesの論文項目表示 | `layouts/partials/achievement-list.html` |
 | 共通HTML・フォント読み込み | `layouts/_default/baseof.html` |
 | ヘッダー・メニュー・フッター | `layouts/partials/` |
 | 色・文字・配置・スマートフォン表示 | `static/css/icl.css` |

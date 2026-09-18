@@ -1,0 +1,594 @@
+# カテゴリ順・同一年度内の項目順は記載順です。年度は新しい順に表示します。
+# 空の fiscal_years: [] は表示されません。url は任意で追加できます。
+categories:
+  - id: doctoral
+    title: 博士論文
+    fiscal_years: []
+  - id: masters
+    title: 修士論文
+    fiscal_years:
+      - fiscal_year: 2025
+        items:
+          - author: 長田和真
+            title: 多様な視点・姿勢に対応可能な参照画像数に制限のないアニメキャラクタの自動彩色
+          - author: オウヨウイキツ
+            title: 作業現場における人間工学に反する行動の検出
+      - fiscal_year: 2024
+        items:
+          - author: 斉藤海都
+            title: キーフレームサンプリングを用いたTwo-Stream型ネットワークによるテニスショット分類
+          - author: 千葉竜太
+            title: スタイルとコンテンツのもつれ解きによる手書き文字の美化可能性の検討
+          - author: 濱田大聖
+            title: 野球スイング軌道推定のための未検出バットの位置補間
+          - author: 吉田勇惟
+            title: 自己教師ありランキング学習によるマルチモーダルなグループダンススキルレベル推定
+      - fiscal_year: 2023
+        items:
+          - author: 駒牧潤也
+            title: ユーザ関心領域の視認性低下を抑えた高効率動画配信手法
+          - author: 進藤光太
+            title: イラスト作成支援のためのキャラクターの体格抽出
+          - author: 高橋遼
+            title: 単眼車載カメラによる昼夜を問わない対向車検出
+          - author: 堤陽菜
+            title: 画像認識による講義映像の自動カメラワークの実装
+          - author: 細野真衣
+            title: 飲食店の天井カメラによる空き皿検出
+      - fiscal_year: 2022
+        items:
+          - author: 藤波広凪
+            title: アニメ映像におけるキャラクター表情識別とシーン分類への応用
+          - author: プラハセティアナウファルラハディアン
+            title: 深度推定を用いた視線推定の精度の向上
+      - fiscal_year: 2021
+        items:
+          - author: 桑原大輔
+            title: 判別属性をパラメータで制御可能な物体判別器
+          - author: 後藤知也
+            title: F1レース放送映像における車体番号識別
+          - author: 七五三掛豊和
+            title: 飲食店における天井のカメラを用いた空きジョッキ検出
+          - author: 陸儀
+            title: 3Dデッサン人形による人物イラストの作成支援システム
+      - fiscal_year: 2020
+        items:
+          - author: 東和良
+            title: 深層学習による帳票中の多品種品名識別
+          - author: 月岡陽人
+            title: 単眼カメラによる手指の平面タッチ判定とその応用
+          - author: 吉井康貴
+            title: 屋外風景画像からの人影の自動除去
+      - fiscal_year: 2019
+        items:
+          - author: 新井太陽
+            title: ARのための深層学習に基づく深度推定を用いたVisual SLAMの実現
+          - author: 新村祐加
+            title: 弦楽器奏者のための音符からの運指推定
+          - author: 中村達也
+            title: サッカー放送映像における特定選手追跡の提案とその評価
+      - fiscal_year: 2018
+        items:
+          - author: 有馬大智
+            title: 漫画自動着色のための領域分割
+          - author: 遠藤怜
+            title: ゲームカード認識のための学習データの収集
+      - fiscal_year: 2017
+        items:
+          - author: 村上裕美
+            title: 深度カメラを用いたバーチャル楽器演奏システム
+      - fiscal_year: 2016
+        items:
+          - author: 五十嵐貴文
+            title: 仮想タッチスクリーンにおける任意位置タッチ検出手法の実現
+          - author: 仲田匡宏
+            title: 天井カメラを用いたマルチユーザAR環境の構築
+          - author: 二見大希
+            title: 仮想タッチスクリーンにおける小ボタンタッチの高精度検出の実現
+          - author: 間地俊介
+            title: 仮想試着システムにおける所有服画像の切り出し
+      - fiscal_year: 2015
+        items:
+          - author: 浅利広織
+            title: HOG/線形SVM及びDeep-CNNによる上半身検出器
+      - fiscal_year: 2014
+        items:
+          - author: 市田泰平
+            title: 麻雀初心者支援システムのための麻雀牌検出と識別
+          - author: 井上翔太
+            title: ハンドジェスチャで操作可能な疑似三面鏡システム
+          - author: 江間雄二
+            title: 上半身識別器と動き情報を用いた映像からの受講者挙動解析
+          - author: 髙久大輔
+            title: Kinectを用いた筋力トレーニング支援システム
+          - author: 野崎陽
+            title: プロジェクタとカメラを用いた“どこでもスイッチ”
+          - author: 法月真弥
+            title: ハンドジェスチャのための手色の自動抽出
+          - author: 本間昂
+            title: 仮想タッチスクリーンの環境適応機能の向上
+          - author: 眞間梓
+            title: エネルギーモデルに基づくイラスト向け樹木描画システム
+          - author: 山田裕
+            title: 頭部姿勢推定のための眼鏡追跡
+      - fiscal_year: 2013
+        items:
+          - author: 根本祐也
+            title: 単眼カメラによる実時間ハンドジェスチャー認識の研究
+          - author: 町田宏一
+            title: 平板な金属部品の検出のための特徴量に関する研究
+      - fiscal_year: 2012
+        items:
+          - author: 藤井龍也
+            title: 輝度勾配と色の類似度による上半身検出器の研究
+          - author: 増田拓
+            title: プロジェクタカメラシステムにおける投影光と影を用いたタッチインタフェース
+      - fiscal_year: 2011
+        items:
+          - author: 青木崇浩
+            title: 映像による受講生の挙動計測
+          - author: 小栗奈緒美
+            title: アクティブ・ライティングに基づくインタラクティブ・アートの実現
+          - author: 加島隆博
+            title: プロジェクタとカメラを用いたタッチスクリーンの実現とその応用
+      - fiscal_year: 2010
+        items:
+          - author: 青木裕太
+            title: 車載カメラからの遠方道路標識の高速認識
+          - author: 北島周平
+            title: 混色を考慮したパーティクルフィルタによる色特徴追跡
+      - fiscal_year: 2009
+        items:
+          - author: 内藤太輔
+            title: 遠方からの高速・高精度な頭部追跡
+      - fiscal_year: 2008
+        items:
+          - author: 若林美香
+            title: メディアコンテンツ処理支援インタフェースの研究
+      - fiscal_year: 2007
+        items:
+          - author: 江藤雅一
+            title: 汎用ジョブスケジューラとそのカスケード型画像識別器学習の高速化への応用
+          - author: 川村正祥
+            title: OR木探索向けの粒度調整型動的負荷分散方式の研究
+          - author: 澤田めぐみ
+            title: 可変近傍タブー探索とその時間割作成問題への適用の研究
+          - author: 高浜一明
+            title: TSPの解空間の構造とそのGAによる探索に関する研究
+          - author: 服部雅人
+            title: 画像識別学習の密結合マルチプロセッサによる高速化の研究
+          - author: 町田雄祐
+            title: 時系列数値データからの相関ルール抽出の研究
+      - fiscal_year: 2006
+        items:
+          - author: 三原洋平
+            title: メディアコンテンツ作成支援の研究
+  - id: bachelors
+    title: 卒業論文
+    fiscal_years:
+      - fiscal_year: 2025
+        items:
+          - author: 伊澤薫
+            title: 短時間モーメントに対する動画モーメント検索の精度改善
+          - author: 岡本龍季
+            title: 足音に着目した人物解析データセットの構築
+          - author: 金澤麗王
+            title: 周波数領域を用いた線形アテンション超解像
+          - author: 川﨑翔太郎
+            title: 投球映像からの投球軌跡予測
+          - author: 菊地慶多
+            title: 骨格情報を考慮した長期Action Quality Assessmentの精度向上
+          - author: 草野藤舞
+            title: 漫符を用いた漫画感情認識
+          - author: 小池裕貴
+            title: 局所的な低照度領域における道路損傷検出の精度向上
+          - author: 小山泰生
+            title: マルチモーダル感情認識に関する文献調査
+          - author: 関莉玖
+            title: 服薬行動検出のための一人称視点データセットの構築
+          - author: 高梨慶太
+            title: 機械学習を用いた生成画像の検出技法の研究動向
+          - author: 高野弘史
+            title: 骨格推定を用いたドライバーの異常行動検知に関する研究動向
+          - author: 稗田健壱
+            title: 非可視センサを用いたアクティブセンシングの研究動向
+          - author: 深澤和樹
+            title: 幾何学的情報を用いた自然画像中の消失点検出性能の向上
+          - author: 八木壮磨
+            title: 複数参照画像による複数アニメ線画の自動彩色手法
+      - fiscal_year: 2024
+        items:
+          - author: 工藤海
+            title: CGを用いたランヤード着用判定用のデータセット作成
+          - author: 伊川哲司
+            title: パドック映像を用いた競馬予測
+          - author: 石橋悠太
+            title: 建設現場映像における小さな人物の検出
+          - author: 一安桃寧
+            title: 視覚的感情認識の研究動向
+          - author: 大谷晟剛
+            title: 体の各部位に着目したマイクロジェスチャのマルチラベル時系列セグメンテーション
+          - author: 大多和愉
+            title: 点群の選別による抽象化した一筆書きアートの実現
+          - author: 小林和樹
+            title: クラスの順序と不均衡データを考慮したサッカーファウル重大度分類手法
+          - author: 柴山美樹
+            title: ラリー履歴と視覚情報に基づくバドミントンのショット予測
+          - author: 髙橋優太
+            title: 足音を用いた人物の時系列3D姿勢体型推定
+          - author: 永井拓翔
+            title: スポーツの試合映像における選手の継続的なトラッキングの研究動向
+          - author: 中川陸
+            title: 仮装試着におけるホワイトバランス補正のためのデータセット生成
+          - author: 橋村駿佑
+            title: 建設現場における人物検出のためのデータセットの構築
+      - fiscal_year: 2023
+        items:
+          - author: 池田健人
+            title: 画像識別を用いたファッションの分析と応用
+          - author: 稲葉稔規
+            title: 網交換を目的とした焦げた網の検出
+          - author: 加藤有里菜
+            title: 人物再同定に関する調査
+          - author: 高砂風我
+            title: 講演動画内の主要人物推定
+          - author: 髙橋恵一
+            title: プレイヤー視点の牌検出による麻雀初級者支援システム
+          - author: 武田桃佳
+            title: 貼り付けオブジェクトの実写背景に調和した影生成
+          - author: 長田和真
+            title: 人物イラストの領域分割のためのデータセット生成
+          - author: ペティースカイ
+            title: 少数の波長カットフィルターを使った物質判別方法の提案
+          - author: オウヨウイキツ
+            title: アニメ映像キャラクターの行動認識のためのデータセット作成
+      - fiscal_year: 2022
+        items:
+          - author: 伊勢和希
+            title: バーチャルパネルおよびその操作に関する調査
+          - author: 岩倉円花
+            title: 表紙イラストに基づく絵本の類似検索
+          - author: 斉藤海都
+            title: 筋力トレーニングにおける往復運動の崩れ認識
+          - author: 高山理沙
+            title: 面接における視覚的印象評価システム
+          - author: 千葉竜太
+            title: 少数の例示入力による手書き風文字生成
+          - author: 堤理咲
+            title: 料理写真撮影の構図決定支援システム
+          - author: 野村将吾
+            title: FPSゲームにおける撃ち合い上達支援システム
+          - author: 濱田大聖
+            title: 野球のバッティング上達支援のためのスイング解析
+          - author: 林裕貴
+            title: 映像によるデスクワークの姿勢監視
+          - author: 吉田勇惟
+            title: ヲタ芸グループ演技の練習支援システム
+          - author: 岩見慶
+            title: サッカー放送映像からの選手のポジション評価
+      - fiscal_year: 2021
+        items:
+          - author: タイシンス
+            title: 敵対的生成ネットワークによるイラストの下塗り自動化
+          - author: 小川結衣
+            title: 車道上の危険歩行者認識
+          - author: 上村光季
+            title: ハンドボールにおけるオーバーステップ検出のための動作解析
+          - author: 小塚恒保
+            title: 車載カメラによる逆光下の交通信号認識
+          - author: 駒牧潤也
+            title: キャラクタの精細度を維持しデータ通信量を抑えたゲーム配信手法
+          - author: 坂本達哉
+            title: 単眼RGBカメラを用いた視線追跡によるFPSゲームの上達支援
+          - author: 進藤光太
+            title: 投稿イラストのトレース回避のためのキャラクターの姿勢推定
+          - author: 高橋遼
+            title: 夜間における対向車の検出
+          - author: 堤陽菜
+            title: 迷子対策のための親子連れ検出
+          - author: バガイサモネス玲奈
+            title: 画像認識による講義映像の自動カメラワーク
+          - author: 福島功暉
+            title: イラストにおける服の光沢生成
+          - author: 細野真衣
+            title: 飲食店の天井カメラによる空き皿検出
+      - fiscal_year: 2020
+        items:
+          - author: 安部元哉
+            title: イラスト制作における範囲選択ツールの調査
+          - author: 井上佳春
+            title: バスケットボールにおけるトラベリング検出のための動作解析
+          - author: 江野澤彩香
+            title: 人物の毛髪領域切り取りにおける背景色の除去
+          - author: 河村直
+            title: 映像中のフェイスマスク着用者のフェイスマスク除去
+          - author: 北川愛梨
+            title: CycleGANを用いたメイク転写
+          - author: 北原明日香
+            title: 物体検出器を用いたバドミントンのサービスシーン検出
+          - author: 黒木大雅
+            title: 深層学習を用いた人物の映り込み除去
+          - author: 小池純人
+            title: 自動二輪車車載カメラを用いた危険物検知
+          - author: 田中圭三
+            title: 漫画におけるタイトルおよび作者の識別
+          - author: プラハセティアナウファルラハディアン
+            title: 3D頭モデルによる視線推定精度向上
+          - author: 藤波広凪
+            title: アニメのシーン解析のためのキャラクター表情識別
+      - fiscal_year: 2019
+        items:
+          - author: 山川祐樹
+            title: サッカー放送映像からのフィールド位置推定
+          - author: 大館みすず
+            title: 複数の同一被写体画像を用いた映りこみ除去
+          - author: 岡田健吾
+            title: イラスト推薦のためのユーザ嗜好の深層学習モデル
+          - author: 後藤知也
+            title: スノーボード競技採点補助のための映像による回転数計測
+          - author: 佐藤吏
+            title: グロテスク画像判別のための血の検出
+          - author: 七五三掛豊和
+            title: 飲食店における天井カメラを用いた空きジョッキ検出
+          - author: 鈴木康太
+            title: 漫画制作支援システムの調査
+          - author: 西村晨希
+            title: イラストにおける服のシワ生成
+          - author: 秀田雪音
+            title: カメラを用いた仮想試着システムのための着衣除去
+          - author: 枡澤淳宏
+            title: 漫画におけるグロテスクシーンの判別
+          - author: 桑原大輔
+            title: Siamese Networkを用いた部品の組み立て不良判別
+          - author: 陸儀
+            title: 着色済み参照フレームを用いるアニメ線画の自動着色手法の提案
+      - fiscal_year: 2018
+        items:
+          - author: 東和良
+            title: 深層学習を用いた画像ボケの推定
+          - author: 井関悠人
+            title: 深度センサを用いた仮想ピアノ演奏システム
+          - author: 風間大輔
+            title: 様々な条件からの麻雀牌検出および自動点数計算
+          - author: 木村泰大
+            title: 水中の魚群の実時間検出および魚種班別
+          - author: 雑賀智
+            title: 行動認識モデルを用いた監視カメラ映像での万引き検出
+          - author: 坂井直樹
+            title: 体型推定を用いた仮想試着システム
+          - author: 田中達也
+            title: 射影変換および一点透視図法を用いたイラスト生成システム
+          - author: 月岡陽人
+            title: スマートフォンカメラで撮影された写真に対するランダムノイズ除去
+          - author: 津久井雄貴
+            title: イラスト制作における支援ツール・技術の調査
+          - author: 別府真菜
+            title: カメラ画像における物体への映り込み除去
+          - author: 萬田一沙
+            title: 日用品を利用したARオブジェクトの光源推定
+          - author: 吉井康貴
+            title: 隠消現実感における画像中の人物除去
+          - author: 吉田昂太
+            title: 手描きイラストによる画像検索システム
+      - fiscal_year: 2017
+        items:
+          - author: 稲田健吾
+            title: 屋内向けの隠消現実手法の検討
+          - author: 新井太陽
+            title: AR空間の共有のための点群マッチング
+          - author: 石黒琢実
+            title: 画像特徴量を用いた映像による実時間カード認識
+          - author: 石濱駿弥
+            title: イラスト推薦のための深層学習によるユーザ嗜好モデル生成
+          - author: 梅原光司
+            title: 顔の表情による認証のための基礎評価
+          - author: 河野智朗
+            title: ピアノ演奏フォーム習得支援システム
+          - author: 新村祐加
+            title: 複数画像に基づく家具の３Dモデル生成
+          - author: 堰澤映
+            title: 道路標識認識のための学習データの人工的生成
+          - author: 高木万結香
+            title: バーチャル試着のための着衣除去
+          - author: 中村達也
+            title: サッカー中継からのハイライト映像抽出のための特定選手追跡
+          - author: 原光恵
+            title: 森林イラスト生成システム
+      - fiscal_year: 2016
+        items:
+          - author: 高橋樹生
+            title: 映像による実時間カード認識
+          - author: 有馬大智
+            title: 仮想タッチスクリーンのタッチ判定手法の改良
+          - author: 磯貝眸
+            title: 並木イラスト生成システム
+          - author: 遠藤怜
+            title: 二段階式上半身検出器における前段検出器の検討
+          - author: 岡埜靖之
+            title: 顔の表情変化を利用した個人認証システムの実装
+          - author: 五島健
+            title: 受講者の挙動推測システムのための頭部動作計測
+          - author: 柴崎毅
+            title: 仮想壁紙デザインシステム
+          - author: 吉村光平
+            title: 仮想タッチスクリーンにおけるスクロール操作の精度向上
+          - author: 渡辺達人
+            title: カードマジック支援システム
+      - fiscal_year: 2015
+        items:
+          - author: 小湊悠貴
+            title: 人物画像における武装者の認識
+          - author: 石井秀弥
+            title: 映像による受講者の上半身追跡
+          - author: 石塚航
+            title: 画像による料理識別と量推定
+          - author: 礒川真未
+            title: 整合性の取れたAR表示の為の実空間推定
+          - author: 上地竜信
+            title: スマートフォン向けのアプリゲーム市場とその今後
+          - author: 篭島由樹
+            title: 顔の表情変化を利用した個人認証システムの提案
+          - author: 増田祥知
+            title: レシピ閲覧操作を想定したハンドジェスチャシステム
+          - author: 村上裕美
+            title: 複数楽器に対応したバーチャル楽器演奏システム
+      - fiscal_year: 2014
+        items:
+          - author: 渡邉雄一郎
+            title: HMDとその斜視者向け表示の検討
+          - author: 三品瑞希
+            title: 英語学習者向けのエデュテイメントシステムの企画提案
+          - author: 五十嵐貴文
+            title: 仮想タッチスクリーンにおける新タッチ判定手法の提案
+          - author: 仲田匡宏
+            title: 天井カメラを用いた共有AR空間の構築
+          - author: 橋田萌子
+            title: エスカレーター上の危険行動検知
+          - author: 藤森央規
+            title: 微表情認識システム
+          - author: 二見大希
+            title: ファッション情報を活用した保有服に基づく服コーディネート推薦システム
+          - author: 間地俊介
+            title: 服コーディネート推薦システムにおける画像からの服領域抽出と仮想試着機能
+      - fiscal_year: 2013
+        items:
+          - author: 作並侑真
+            title: 自動車メーカー各社の安全運転支援技術の調査研究
+          - author: 浅利広織
+            title: 上半身に注目した人検出における高速化
+          - author: 中林拓也
+            title: カメラフィードバックを用いた投影光の色補正
+          - author: 野村晃洋
+            title: ARによる仮想タッチシステム
+          - author: 丸山ひかる
+            title: 保有情報と使用履歴に基づく服コーディネート推薦システム
+      - fiscal_year: 2012
+        items:
+          - author: 石田麗美
+            title: 静止画における動物の切り抜き方法の検討
+          - author: 市田泰平
+            title: ARを用いた麻雀初心者支援システム
+          - author: 井上翔太
+            title: プロジェクタとカメラによる擬似三面鏡システム
+          - author: 江間雄二
+            title: 映像からの受講者挙動解析
+          - author: 金子正貴
+            title: プロジェクタとカメラによる落書きシステムの提案
+          - author: 桑折汐美
+            title: プロジェクタとカメラを用いた壁照明システム
+          - author: 高久大輔
+            title: Kinectによる複雑ハンドジェスチャの認識
+          - author: 野崎陽
+            title: どこでもスイッチ
+          - author: 法月真弥
+            title: ハンドジェスチャのための環境適応型手領域抽出の検討
+          - author: 本間昂
+            title: 仮想タッチスクリーンにおけるスクロール機能の実現
+          - author: 眞間梓
+            title: エネルギーモデルに基づくイラスト向け樹木描画システム
+          - author: 山田裕
+            title: 実時間アニメ風動画加工の実現
+          - author: 大林繁夫
+            title: クラウド化による行政の業務改善についての検討
+      - fiscal_year: 2011
+        items:
+          - author: 町田宏一
+            title: Mixed Reality を用いたゲームブックの企画と設計
+          - author: 古谷祐人
+            title: Mixed Reality を用いたゲームブックの企画提案
+          - author: 井村健人
+            title: Mixed Reality Game Bookにおける指先タッチの検出手法
+          - author: 牧秀行
+            title: Mixed Reality Game Bookのための顔特徴検出技術に関する調査研究
+          - author: 丸和雄
+            title: 斜め顔検出技術に関する調査研究
+          - author: 根本祐也
+            title: 複雑背景下における単眼カメラによるハンドジェスチャの認識
+          - author: 西田悠貴
+            title: Kinect Hackに関する調査研究
+      - fiscal_year: 2010
+        items:
+          - author: 草柳圭太
+            title: 公共空間における人流計測の手法
+          - author: 藤間英輔
+            title: 画像認識を利用したインタフェースの調査
+          - author: 福田達也
+            title: 直観的なインタフェースを用いた子供のための音楽学習支援システムの提案
+          - author: 藤井龍也
+            title: HOGとSVMを使用した上半身検出器とその評価
+          - author: 増田拓
+            title: タッチスクリーンの屋外での応用システム
+          - author: 宮本和佐
+            title: ハンドジャスチャのための複雑背景下における手領域の検出
+          - author: 三山遼太
+            title: インタラクティブアート「鳥を呼ぶ窓」における鳥達の動作表現
+      - fiscal_year: 2009
+        items:
+          - author: 青木崇浩
+            title: 実時間顔検出のための課題と高速化手法の提案
+          - author: 上野悠貴
+            title: 移動カメラ向け動的背景更新による背景分離
+          - author: 小栗奈緒美
+            title: プロジェクタとカメラを用いたＴ字パズルのスクリーン前面からの正解判定手法
+          - author: 加島隆博
+            title: プロジェクタとカメラを用いたスクリーンタッチスイッチの実現
+          - author: 坪田尚洋
+            title: 曲率に注目した特徴量の提案とその手形状認識への応用
+          - author: 古牧雅弘
+            title: Ｔ字パズルを用いたインタラクティブアートの実装
+      - fiscal_year: 2008
+        items:
+          - author: 青木裕太
+            title: メッシュ・テンプレートを用いた円形道路標識検出の高速化
+          - author: 加藤太郎
+            title: 遺伝的アルゴリズムの自動パラメータ調整法の改良
+          - author: 北島周平
+            title: ２色ボールの実時間追跡
+          - author: 木村洋輔
+            title: 道路標識高速検出のための色判定表の構築
+          - author: 山田圭介
+            title: 臨場感のある遠隔授業のための顔と手の位置検出にもとづく自動カメラワーク
+          - author: 渡邊直紀
+            title: プロジェクタとカメラを用いたスクリーンタッチスイッチの実現
+      - fiscal_year: 2007
+        items:
+          - author: 濱口隆成
+            title: パラメータサーベイGAの提案と配属決定問題への適用
+          - author: 渡辺大雅
+            title: 色情報による画像認識のための色判定表の作成
+          - author: 安西俊孝
+            title: メッシュ・テンプレートを用いた円形道路標識の実時間検出
+          - author: 内藤太輔
+            title: 色情報に基づく顔と手の位置の高速検出
+          - author: 上原充弘
+            title: 顔と手の位置検出を利用した遠隔授業の自動カメラワークの提案
+          - author: 井口浩由
+            title: 作業履歴グラフを活用した画像コンテンツ作成支援
+          - author: 大澤直哉
+            title: 同時生成と比較表示インタフェースによる画像操作の効率化
+      - fiscal_year: 2005
+        items:
+          - author: 石井寛
+            title: IT弱者向け想起支援インタフェースの一提案
+          - author: 江藤雅一
+            title: Javaによる汎用ジョブスケジューラの実装
+          - author: 河上潤一郎
+            title: マルチプロセッサCellがもたらす可能性
+          - author: 川村正祥
+            title: 画像編集時の加工パラメータ操作インタフェースの提案
+          - author: 澤田めぐみ
+            title: タブーサーチ法による時間割作成とその評価
+          - author: 高浜一明
+            title: 時間割作成システムにおける表示・編集システム
+          - author: 竹内宏誠
+            title: 交差方法を継承する遺伝的アルゴリズムとその応用
+          - author: 服部雅人
+            title: レイトレーシングの高速化と並列化の検討
+          - author: 町田雄祐
+            title: 並列レイトレーシングによるポリゴン表示とPCクラスタ上での評価
+          - author: 和田夏帆
+            title: MPIを利用したPCクラスタ用ジョブスケジューラの実装
+      - fiscal_year: 2004
+        items:
+          - author: 三原洋平
+            title: PCクラスタを活用したメディアコンテンツ作成支援システム

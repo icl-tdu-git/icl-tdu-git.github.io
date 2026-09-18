@@ -1,0 +1,37 @@
+{{ define "main" }}
+{{ $data := index site.Data .Params.data_key }}
+{{ $groups := newScratch }}
+{{ $years := slice }}
+{{ range $data.categories }}
+  {{ $category := . }}
+  {{ range .fiscal_years }}
+    {{ if .items }}
+      {{ $year := int .fiscal_year }}
+      {{ $years = $years | append $year }}
+      {{ $groups.Add (printf "%d-%s" $year $category.id) .items }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $years = sort (uniq $years) "value" "desc" }}
+<div class="container achievements-page">
+  <header class="page-title"><h1>{{ .Title }}</h1></header>
+  {{ with $years }}
+  {{ range . }}
+  {{ $year := . }}
+  <section class="achievement-category" id="year-{{ . }}" aria-labelledby="year-{{ . }}-title">
+    <h2 id="year-{{ . }}-title">{{ . }}年度</h2>
+    {{ range $data.categories }}
+    {{ $items := $groups.Get (printf "%d-%s" $year .id) }}
+    {{ if $items }}
+    <section class="achievement-year" aria-labelledby="year-{{ $year }}-{{ .id }}">
+      <h3 id="year-{{ $year }}-{{ .id }}">{{ .title }}</h3>
+      {{ partial "achievement-list.html" $items }}
+    </section>
+    {{ end }}
+    {{ end }}
+  </section>
+  {{ end }}
+  {{ else }}<p>現在、掲載情報はありません。</p>{{ end }}
+  <p class="news-back"><a href="{{ "/" | relURL }}">トップページへ戻る</a></p>
+</div>
+{{ end }}

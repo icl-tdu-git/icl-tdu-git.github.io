@@ -1,0 +1,9 @@
+<ul class="achievement-list">
+  {{ range . }}
+  <li class="achievement-item">
+    <p>{{ if reflect.IsSlice .author }}{{ delimit .author ", " }}{{ else }}{{ .author }}{{ end }}：{{ with .url }}<a href="{{ . | relURL }}">{{ end }}{{ .title }}{{ if .url }}</a>{{ end }}</p>
+    {{ with (.venue | default .publication) }}<p class="achievement-publication">{{ . | markdownify }}</p>{{ end }}
+    {{ with .date }}<p class="achievement-date">{{ . }}</p>{{ end }}
+  </li>
+  {{ end }}
+</ul>
