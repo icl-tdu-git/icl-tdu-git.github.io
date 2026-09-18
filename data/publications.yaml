@@ -2,9 +2,39 @@
 # category: journal / international / domestic。date: "YYYY-MM"（必須）。
 
 - author: [小池裕貴, 金子直史]
-  title: 局所的な低照度領域における道路損傷検出モデルの精度向上
-  venue: 動的画像処理実利用化ワークショップ (DIA2026), IS1-5
-  date: "2026-03"
+  title: 道路損傷異常検知による物体検出補完の可能性検討
+  venue: IAIP/MEサマーセミナー
+  date: "2026-08"
+  category: domestic
+
+- author: [草野藤舞, 金子直史]
+  title: 漫符を用いた多モダリティ融合漫画感情認識の検討
+  venue: 第29回 画像の認識・理解シンポジウム (MIRU2026), IS3-168
+  date: "2026-08"
+  category: domestic
+
+- author: [金澤麗王, 金子直史]
+  title: 直接選好最適化とマルチタスク学習を用いたフローマッチングに基づく物体配置
+  venue: 第29回 画像の認識・理解シンポジウム (MIRU2026), IS3-140
+  date: "2026-08"
+  category: domestic
+
+- author: [深澤和樹, 金子直史]
+  title: 基盤モデルを用いた消失点検出における幾何学的情報の効果検証
+  venue: 第29回 画像の認識・理解シンポジウム (MIRU2026), IS3-055
+  date: "2026-08"
+  category: domestic
+
+- author: [高橋優太, 岡本龍季, 金子直史]
+  title: 足音を用いた世界座標系における人物の3Dメッシュ再構成
+  venue: 第29回 画像の認識・理解シンポジウム (MIRU2026), IS2-245
+  date: "2026-08"
+  category: domestic
+
+- author: [八木壮磨, 金子直史]
+  title: アニメ線画の自動彩色精度改善に向けた参照セグメント候補のリランキング
+  venue: 第29回 画像の認識・理解シンポジウム (MIRU2026), IS2-084
+  date: "2026-08"
   category: domestic
 
 - author: [金澤麗王, 金子直史]
@@ -13,9 +43,9 @@
   date: "2026-03"
   category: domestic
 
-- author: [八木壮磨, 金子直史]
-  title: 複数参照画像による複数アニメ線画の自動彩色手法の検討
-  venue: 動的画像処理実利用化ワークショップ (DIA2026), IS1-20
+- author: [草野藤舞, 金子直史]
+  title: 漫符と顔画像の統合による漫画感情認識
+  venue: 信学技報, vol. 125, no. 424, PRMU2025-46, pp. 28-31
   date: "2026-03"
   category: domestic
 
@@ -31,9 +61,15 @@
   date: "2026-03"
   category: domestic
 
-- author: [草野藤舞, 金子直史]
-  title: 漫符と顔画像の統合による漫画感情認識
-  venue: 信学技報, vol. 125, no. 424, PRMU2025-46, pp. 28-31
+- author: [八木壮磨, 金子直史]
+  title: 複数参照画像による複数アニメ線画の自動彩色手法の検討
+  venue: 動的画像処理実利用化ワークショップ (DIA2026), IS1-20
+  date: "2026-03"
+  category: domestic
+
+- author: [小池裕貴, 金子直史]
+  title: 局所的な低照度領域における道路損傷検出モデルの精度向上
+  venue: 動的画像処理実利用化ワークショップ (DIA2026), IS1-5
   date: "2026-03"
   category: domestic
 
@@ -57,7 +93,7 @@
 
 - author: [髙橋優太, 金子直史]
   title: 足音の到達時間差を活用した人物の時系列3D メッシュ・位置推定
-  venue: AIPサマーセミナー
+  venue: IAIP/MEサマーセミナー
   date: "2025-08"
   category: domestic
 
@@ -129,7 +165,7 @@
 
 - author: [長田和真, 金子直史]
   title: 姿勢・視点に依存しない単一参照画に基づくアニメキャラクタの自動彩色手法の検討
-  venue: IAIPサマーセミナー
+  venue: IAIP/MEサマーセミナー
   date: "2024-08"
   category: domestic
 
