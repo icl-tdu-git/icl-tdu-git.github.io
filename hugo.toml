@@ -6,7 +6,7 @@ theme = "icl"
 disableKinds = ["taxonomy", "term", "RSS"]
 
 [[menu.main]]
-  name = "Member"
+  name = "Members"
   url = "/member/"
   weight = 2
 
