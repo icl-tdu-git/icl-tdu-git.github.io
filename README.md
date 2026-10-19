@@ -87,6 +87,7 @@ Publicationsは「出版年 → 出版種別」の順で表示します。
   venue: 掲載誌名・会議名、巻号、ページなど
   date: "2026-09"
   category: international
+  note: "CORE Rank A"
   url: "https://example.com/"
 ```
 
@@ -97,7 +98,8 @@ Publicationsは「出版年 → 出版種別」の順で表示します。
 `author` は著者名のリスト、または卒論・修論のように単一の文字列を指定できます。
 Thesesでは通常 `author` と `title` のみで構いません。
 `venue`・`url` は任意です。`url` を指定するとタイトルがリンクになります。
-掲載先の補足には `**受賞情報**` のようなMarkdownの強調が使えます。
+`note` は任意の補足情報です。角括弧を付けずに記載すると、年月の後に `2026-09. [CORE Rank A]` のように表示します。
+未指定・空欄の場合は表示しません。`note: "**受賞情報**"` のようなMarkdownの強調も使えます。
 Thesesは「年度 → 種別」の順で表示します。データは従来どおり `data/theses.yaml` の該当カテゴリの `fiscal_years` 内に追記します。
 `fiscal_year` は年度（4月〜翌年3月）で、新しい順に表示します。`date` は任意です。
 

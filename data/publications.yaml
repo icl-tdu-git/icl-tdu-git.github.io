@@ -3,9 +3,10 @@
 
 - author: [Yuta Takahashi, Ryuki Okamoto, Naoshi Kaneko]
   title: 'Hearing Footsteps to Recover World-Grounded Human Mesh Sequences'
-  venue: 'IEEE/CVF Winter Conference on Applications of Computer Vision (WACV 2027), to appear [**CORE Rank A**]'
+  venue: 'IEEE/CVF Winter Conference on Applications of Computer Vision (WACV 2027), to appear'
   date: "2027-01"
   category: international
+  note: '**CORE Rank A**'
 
 - author: [Toma Kusano, Naoshi Kaneko]
   title: 'Multimodal Fusion for Manga Emotion Recognition Using Manga-Specific Visual Cues'
@@ -105,9 +106,10 @@
 
 - author: [Kazuma Nagata, Naoshi Kaneko]
   title: 'DACoN: DINO for Anime Paint Bucket Colorization with Any Number of Reference Images'
-  venue: 'IEEE/CVF International Conference on Computer Vision (ICCV 2025), [**CORE Rank A\*, Acceptance rate: 24% (2,699/11,239 submissions)**]'
+  venue: 'IEEE/CVF International Conference on Computer Vision (ICCV 2025)'
   date: "2025-10"
   category: international
+  note: '**CORE Rank A\*, Acceptance rate: 24% (2,699/11,239 submissions)**'
 
 - author: [髙橋優太, 金子直史]
   title: 足音の到達時間差を活用した人物の時系列3D メッシュ・位置推定
@@ -123,9 +125,10 @@
 
 - author: [長田和真, 金子直史]
   title: 多様な視点・姿勢に対応可能な参照画像数に制限のないアニメキャラクタの自動彩色
-  venue: 第28回 画像の認識・理解シンポジウム (MIRU2025), OS3A-06, [**MIRU2025 学生奨励賞**]
+  venue: 第28回 画像の認識・理解シンポジウム (MIRU2025), OS3A-06
   date: "2025-08"
   category: domestic
+  note: '**MIRU2025 学生奨励賞**'
 
 - author: [高橋優太, 金子直史]
   title: 足音を用いた人物の時系列3D姿勢体型推定
