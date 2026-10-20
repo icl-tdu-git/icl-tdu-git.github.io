@@ -8,6 +8,18 @@
   category: international
   note: '**CORE Rank A**'
 
+- author: [Reo Kanazawa, Naoshi Kaneko]
+  title: 'Frequency-Aware RWKV for Super-Resolution'
+  venue: 'International Workshop on Advanced Image Technology (IWAIT 2027), to appear'
+  date: "2027-01"
+  category: international
+
+- author: [Yuta Takahashi, Naoshi Kaneko]
+  title: 'Open-Set Concealed Object Detection in Active Terahertz Images via Class-Agnostic Verification'
+  venue: 'International Workshop on Advanced Image Technology (IWAIT 2027), to appear'
+  date: "2027-01"
+  category: international
+
 - author: [Toma Kusano, Naoshi Kaneko]
   title: 'Multimodal Fusion for Manga Emotion Recognition Using Manga-Specific Visual Cues'
   venue: 'International Workshop on Frontiers of Computer Vision (IW-FCV 2026) (non-peer-reviewed, non-archival)'
